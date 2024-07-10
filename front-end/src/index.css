@@ -36,6 +36,10 @@
   margin: 40px 120px;
   color: white;
 }
+.nav a {
+  color: white;
+  text-decoration: none;
+}
 .nav-logo{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 50px;
@@ -51,7 +55,7 @@
 .nav-item{
   color: white;
 }
-.nav-contact{
+.nav-contact a{
   border-radius: 50px;
   padding:10px 38px;
   background: #fff;
