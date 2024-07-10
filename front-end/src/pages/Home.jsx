@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Background from '/home/gambi/P4/Gari-Zetu/front-end/src/components/Background.jsx';
-import Navbar from '/home/gambi/P4/Gari-Zetu/front-end/src/components/Navbar.jsx';
-import Hero from '/home/gambi/P4/Gari-Zetu/front-end/src/components/Hero.jsx';
-import '/home/gambi/P4/Gari-Zetu/front-end/src/index.css';
+import Background from '../components/Background.jsx';
+import Navbar from '../components/Navbar.jsx';
+import Hero from '../components/Hero.jsx';
+import '../index.css';
 
 const Home = () => {
   const heroData = [
